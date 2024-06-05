@@ -7,8 +7,8 @@
   /* style: man */
   body#manpage {margin:0}
   .mp {max-width:100ex;padding:0 10ex 1ex 5ex}
-  .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
-  .mp h2 {margin:15px 0 0 0}
+  .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 1em 0}
+  .mp h2 {margin:1em 0px 1em 0}
   .mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:10ex}
   .mp h3 {margin:0 0 0 5ex}
   .mp dt {margin:0;clear:left}
@@ -39,6 +39,8 @@
   ol.man-decor li.tl {text-align:left}
   ol.man-decor li.tc {text-align:center;letter-spacing:4px}
   ol.man-decor li.tr {text-align:right;float:right}
+  ul.no-bullets {list-style-type: none; padding-left: 3em; padding-top: 1em; margin: 0pt}
+  p.option-indent {padding-left: 2.5em} 
   </style>
   <style type='text/css' media='all'>
   /* style: toc */
@@ -115,15 +117,15 @@ He is familiar with Cisco, Arista, Ruckus, and Dell console configuration.</p>
 
 <h2 id="OPTIONS">OPTIONS</h2>
 
-<ul>
+<ul class="no-bullets">
   <li>
     <p><code>--leader</code></p>
 
-    <p>Has led a team of 6 in designing and implementing two large scale deployments
+    <p class="option-indent">Has led a team of 6 in designing and implementing two large scale deployments
     of correspondence automation systems using Thunderhead CMS, meeting deadlines on
     or before schedule.</p>
 
-    <p>Comfortable in communicating with stakeholders and groups of people in both a 
+    <p class="option-indent">Comfortable in communicating with stakeholders and groups of people in both a 
     leadership or training capacity. Experienced with high pressure, time sensitive
     deployments and deadlines.</p>
 
@@ -131,41 +133,41 @@ He is familiar with Cisco, Arista, Ruckus, and Dell console configuration.</p>
   <li>
     <p><code>--consultant</code></p>
 
-    <p>Experienced in requirements gathering, design documentation, and capturing
+    <p class="option-indent">Experienced in requirements gathering, design documentation, and capturing
     current business processes to analyze for possible improvements. Extensive practice
     in meeting with stakeholders and large development teams to plan and execute large
     scale projects.</p>
 
-    <p>Worked as a subject matter expert for automated unemployment document generation,
+    <p class="option-indent">Worked as a subject matter expert for automated unemployment document generation,
     and scripted hundreds of documents using javascript and XML/XSL-FO templating. 
     Developed a barcode and printing scheme for automated sorting and mailing.</p>
 
-    <p>Wrote hundreds of flows using Oracle Policy Automation, allowing for automated
+    <p class="option-indent">Wrote hundreds of flows using Oracle Policy Automation, allowing for automated
     fact-finding for unemployment determinations.</p>
 
   </li>
   <li>
     <p><code>--systems</code> administrator</p>
 
-    <p>Experienced in the installation, configuration, and maintenance of servers and
+    <p class="option-indent">Experienced in the installation, configuration, and maintenance of servers and
     linux hypervisors (Proxmox Hypervisor and QEMU). Has configured Proxmox
     high availability clusters, and familiar with linux bridges and OpenVSwitch.</p>
 
-    <p>Has previously worked with Debian, Redhat, NixOS, and other distributions, and is
+    <p class="option-indent">Has previously worked with Debian, Redhat, NixOS, and other distributions, and is
     comfortable maintaining and administering containers (Podman/Docker), VMs (using QEMU), 
     and bare metal installations. Orchestrated configuration management using Ansible
     playbooks and roles, and scripting with Bash.</p>
     
-    <p>Familiar with server hardware maintenance and troubleshooting, including
+    <p class="option-indent">Familiar with server hardware maintenance and troubleshooting, including
     Dell and Supermicro rack systems. Comfortable with server rack wiring and routing.
     Experienced with patch panel termination and in wall wiring.</p>
 
-    <p>Competent in setting up and administering networking infrastructure, 
+    <p class="option-indent">Competent in setting up and administering networking infrastructure, 
     including distribution and access switches, and firewall rules. Familiar with
     Cisco iOS, Arista EOS, Ruckus/Commscope, and Dell DNOS Switch management. Has 
     installed and configured PFsense and VyOS firewalls/routers.</p>
 
-    <p>Certifications:</p>
+    <p class="option-indent">Certifications:</p>
     <ul>
       <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/kjy101/D79B9E8CED07A53F?sharingId=CAB0C27DBA0C204E">AZ-900 Azure Fundamentals</a></li>
     </ul>
@@ -173,7 +175,7 @@ He is familiar with Cisco, Arista, Ruckus, and Dell console configuration.</p>
   <li>
     <p><code>--trainer</code></p>
 
-    <p>Has trained dozens of consultants and clients over multiple projects and teams
+    <p class="option-indent">Has trained dozens of consultants and clients over multiple projects and teams
     in new technologies and methodologies. Experienced in developing training plans 
     and lessons for small to large groups.</p>
 
@@ -181,7 +183,7 @@ He is familiar with Cisco, Arista, Ruckus, and Dell console configuration.</p>
   <li>
     <p><code>--other</code></p>
 
-    <p>Avid homelabber, and experimenter with new and used hardware and software.
+    <p class="option-indent">Avid homelabber, and experimenter with new and used hardware and software.
     Runs a full server rack in his garage, much to the chagrin of his wife. Also enjoys
     hiking, travel and delicious food.</p>
 
